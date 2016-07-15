@@ -9,15 +9,11 @@
 [color]
   # Use colors in Git commands that are capable of colored output when outputting to the terminal
   ui = auto
+  diff = auto
 [color "branch"]
   current = yellow reverse
   local = yellow
   remote = green
-[color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
 [color "status"]
   added = green
   changed = yellow
@@ -27,3 +23,6 @@
 [branch "master"]
   remote = origin
   merge = refs/heads/master
+[user]
+  name = Krystof Kiss
+  email = krystof.kiss@gmail.com
